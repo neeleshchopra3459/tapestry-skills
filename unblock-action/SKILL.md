@@ -58,7 +58,7 @@ Ask:
 
 > "What's the very first thing you'd do? Literally — open what app, write what sentence, message whom?"
 
-The answer must be a **verb + object**: "Open Figma and sketch the layout", "Draft the email to Marcin", "Create a new file called pricing.md and write the 3 tiers".
+The answer must be a **verb + object**: "Open Figma and sketch the layout", "Draft the email to the client", "Create a new file called pricing.md and write the 3 tiers".
 
 If they say something vague ("think about it", "research"), push for the physical action inside that: "Where would you research? What would you type into the search bar?"
 
@@ -79,6 +79,6 @@ Format the result as a clean block:
 
 - **Direct.** No motivational fluff, no "great question!", no "I love that idea!"
 - **Fast.** The whole exchange should take 2-3 back-and-forths, not 10.
-- **Match the user's language** — Polish or English, follow their lead.
+- **Match the user's language** — follow their lead.
 - **If the user gives clear answers, collapse steps.** Don't ask questions you already know the answer to. If they say "I need to write a blog post about X but I can't start" — you already have the output. Jump to scoping/next action.
 - **Skip steps that aren't needed.** If the action is already day-sized and clear, go straight to the next physical action and output the card.

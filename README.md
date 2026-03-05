@@ -69,7 +69,7 @@ Summarize your Claude Code conversation and append it to a weekly agent-log file
 
 **Features:**
 - Reverse chronological daily entries
-- Automatic ISO week file naming (`LOOM/YYYY-wWW agent-log.md`)
+- Automatic ISO week file naming (`YYYY-wWW agent-log.md`)
 - CHUNK markers for reusable outputs (plans, summaries, frameworks)
 - Appends without overwriting existing entries
 - Multi-day session support with date attribution
@@ -243,7 +243,7 @@ Claude will use this skill when you want to log your session:
 The skill will:
 1. Review the full conversation history
 2. Identify topics, decisions, and reusable outputs
-3. Append entries to `LOOM/YYYY-wWW agent-log.md` in reverse chronological order
+3. Append entries to `YYYY-wWW agent-log.md` in reverse chronological order
 4. Confirm what was logged
 
 ### Unblock Action

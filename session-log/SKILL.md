@@ -66,7 +66,7 @@ Scan the entire conversation history. Identify:
 
 **Date attribution:** A conversation may span multiple days. Determine the correct date for each topic using these signals (in priority order):
 1. **System reminders** about date changes ("The date has changed. Today's date is now...")
-2. **File names** with dates (e.g., `2026-02-26 Marcin email.md` was created/discussed on that date)
+2. **File names** with dates (e.g., `2026-02-26 client email.md` was created/discussed on that date)
 3. **Context from session summaries** — if the session was continued from a compacted conversation, the summary may mention which work happened when
 4. **Default** — if no date signal exists, use today's date
 
@@ -100,4 +100,4 @@ Tell the user what was logged (topic titles only, one line).
 - Keep bullets ruthlessly short — one sentence, no semicolons chaining multiple thoughts
 - CHUNKs reference outputs that exist in the conversation, not in files — they're bookmarks for the user to find later
 - Do NOT include the full chunk content in the log — just the marker
-- Language: match the language the conversation was conducted in (Polish, English, or mixed)
+- Language: match the language the conversation was conducted in (use the user's language)
